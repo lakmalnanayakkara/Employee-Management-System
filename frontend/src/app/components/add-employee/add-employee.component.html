@@ -1,0 +1,114 @@
+<div class="container mt-5">
+  <h1>Add Employee</h1>
+  <app-error-popup
+    *ngIf="showErrorPopup"
+    [message]="errorMessage"
+    (close)="closeErrorPopup()"
+  >
+  </app-error-popup>
+
+  <form (ngSubmit)="addEmployee()" #employeeForm="ngForm">
+    <div class="form-group mt-3">
+      <label for="name">First Name</label>
+      <input
+        type="text"
+        class="form-control"
+        id="fname"
+        [(ngModel)]="employee.FirstName"
+        name="fname"
+        #fname="ngModel"
+        minlength="3"
+        required
+      />
+      <div *ngIf="fname.invalid && fname.touched" class="text-danger">
+        <small *ngIf="fname.errors?.['required']"
+          >First Name is required.</small
+        >
+        <small *ngIf="fname.errors?.['minlength']"
+          >First Name must be at least 3 characters long.</small
+        >
+      </div>
+    </div>
+    <div class="form-group mt-3">
+      <label for="name">Last Name</label>
+      <input
+        type="text"
+        class="form-control"
+        id="lname"
+        [(ngModel)]="employee.LastName"
+        name="lname"
+        #lname="ngModel"
+        minlength="3"
+        required
+      />
+      <div *ngIf="lname.invalid && lname.touched" class="text-danger">
+        <small *ngIf="lname.errors?.['required']">Last Name is required.</small>
+        <small *ngIf="lname.errors?.['minlength']"
+          >Last Name must be at least 2 characters long.</small
+        >
+      </div>
+    </div>
+    <div class="form-group mt-3">
+      <label for="name">Email</label>
+      <input
+        type="email"
+        class="form-control"
+        id="email"
+        [(ngModel)]="employee.Email"
+        name="email"
+        #email="ngModel"
+        [pattern]="emailPattern"
+        required
+      />
+      <div *ngIf="email.invalid && email.touched" class="text-danger">
+        <small *ngIf="email.errors?.['required']">Email is required.</small>
+        <small *ngIf="email.errors?.['pattern']"
+          >Please enter a valid email address.</small
+        >
+      </div>
+    </div>
+    <div class="form-group mt-3">
+      <label for="name">Position</label>
+      <input
+        type="email"
+        class="form-control"
+        id="position"
+        [(ngModel)]="employee.Position"
+        name="position"
+        #position="ngModel"
+        required
+      />
+      <div *ngIf="position.invalid && position.touched" class="text-danger">
+        <small *ngIf="position.errors?.['required']"
+          >Position is required.</small
+        >
+      </div>
+    </div>
+    <div class="form-group mt-3">
+      <label for="name">Salary</label>
+      <input
+        type="number"
+        class="form-control"
+        id="salary"
+        [(ngModel)]="employee.Salary"
+        name="salary"
+        #salary="ngModel"
+        min="0"
+        required
+      />
+      <div *ngIf="salary.invalid && salary.touched" class="text-danger">
+        <small *ngIf="salary.errors?.['required']">Salary is required.</small>
+        <small *ngIf="salary.errors?.['min']"
+          >Salary must be a positive number.</small
+        >
+      </div>
+    </div>
+    <button
+      type="submit"
+      class="btn btn-success mt-3"
+      [disabled]="employeeForm.invalid"
+    >
+      Add Employee
+    </button>
+  </form>
+</div>

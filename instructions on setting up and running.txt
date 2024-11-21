@@ -1,0 +1,15 @@
+##instructions on setting up and running
+
+1. Unzip and open the frontend and backend projects separately.
+
+2. Then, install packages those in uploaded image. In VisualStudio go to Tools>Nuget Package Manger>Mange Nuget Packages for Solution
+
+3. Next, in backend appSettings.json file change the MySQL username and password according to you.
+
+4. Then, open Nuget Package Console(In VisualStudio go to Tools>Nuget Package Manger>Package Manager Console) and run Add-Migration any- name. After succeeded run Update-Database.
+
+5. Then build the project and run the backend project.
+
+6. Next, go to the frontend project and run npm install.
+
+7. Now the setup is OK for use. 

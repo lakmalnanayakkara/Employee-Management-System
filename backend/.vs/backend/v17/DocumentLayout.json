@@ -1,0 +1,285 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|c:\\users\\user\\documents\\associate software engineer interview task\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|c:\\users\\user\\documents\\associate software engineer interview task\\backend\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|c:\\users\\user\\documents\\associate software engineer interview task\\backend\\service\\impl\\employeeserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|solutionrelative:service\\impl\\employeeserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|c:\\users\\user\\documents\\associate software engineer interview task\\backend\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|solutionrelative:service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|c:\\users\\user\\documents\\associate software engineer interview task\\backend\\mappers\\employeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|solutionrelative:mappers\\employeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|c:\\users\\user\\documents\\associate software engineer interview task\\backend\\dto\\response\\getemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|solutionrelative:dto\\response\\getemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|c:\\users\\user\\documents\\associate software engineer interview task\\backend\\dto\\request\\addemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|solutionrelative:dto\\request\\addemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|c:\\users\\user\\documents\\associate software engineer interview task\\backend\\dto\\paginated\\employeepaginateddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|solutionrelative:dto\\paginated\\employeepaginateddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|c:\\users\\user\\documents\\associate software engineer interview task\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|c:\\users\\user\\documents\\associate software engineer interview task\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|c:\\users\\user\\documents\\associate software engineer interview task\\backend\\repository\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|solutionrelative:repository\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|c:\\users\\user\\documents\\associate software engineer interview task\\backend\\dto\\standardresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|solutionrelative:dto\\standardresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|c:\\users\\user\\documents\\associate software engineer interview task\\backend\\middleware\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|solutionrelative:middleware\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|c:\\users\\user\\documents\\associate software engineer interview task\\backend\\exception\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|solutionrelative:exception\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|c:\\users\\user\\documents\\associate software engineer interview task\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|solutionrelative:backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|c:\\users\\user\\documents\\associate software engineer interview task\\backend\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A9BF43-7EB6-46ED-8854-CC38BFD04CBA}|backend.csproj|solutionrelative:entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAUAAAAAAAAAAABRwBoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-09T05:24:12.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeePaginatedDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\DTO\\paginated\\EmployeePaginatedDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\paginated\\EmployeePaginatedDTO.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\DTO\\paginated\\EmployeePaginatedDTO.cs",
+              "RelativeToolTip": "DTO\\paginated\\EmployeePaginatedDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T17:49:47.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Middleware\\ExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Middleware\\ExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ExceptionHandlerMiddleware.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:52:24.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Exception\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Exception\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Exception\\NotFoundException.cs",
+              "RelativeToolTip": "Exception\\NotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:49:40.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeProfile.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Mappers\\EmployeeProfile.cs",
+              "RelativeDocumentMoniker": "Mappers\\EmployeeProfile.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Mappers\\EmployeeProfile.cs",
+              "RelativeToolTip": "Mappers\\EmployeeProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T07:46:53.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAQwCsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:48:42.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Repository\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Repository\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Repository\\AppDbContext.cs",
+              "RelativeToolTip": "Repository\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:45:40.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "backend.csproj",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\backend.csproj",
+              "RelativeDocumentMoniker": "backend.csproj",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\backend.csproj",
+              "RelativeToolTip": "backend.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-08T06:44:51.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-08T06:43:08.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetEmployeeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\DTO\\response\\GetEmployeeDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\response\\GetEmployeeDTO.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\DTO\\response\\GetEmployeeDTO.cs",
+              "RelativeToolTip": "DTO\\response\\GetEmployeeDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:10:09.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddEmployeeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\DTO\\request\\AddEmployeeDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\request\\AddEmployeeDTO.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\DTO\\request\\AddEmployeeDTO.cs",
+              "RelativeToolTip": "DTO\\request\\AddEmployeeDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:07:55.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StandardResponse.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\DTO\\StandardResponse.cs",
+              "RelativeDocumentMoniker": "DTO\\StandardResponse.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\DTO\\StandardResponse.cs",
+              "RelativeToolTip": "DTO\\StandardResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:05:00.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwEwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:00:56.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeServiceIMPL.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Service\\IMPL\\EmployeeServiceIMPL.cs",
+              "RelativeDocumentMoniker": "Service\\IMPL\\EmployeeServiceIMPL.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Service\\IMPL\\EmployeeServiceIMPL.cs",
+              "RelativeToolTip": "Service\\IMPL\\EmployeeServiceIMPL.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAIBJwEwAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T05:58:06.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Service\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Service\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Service\\EmployeeService.cs",
+              "RelativeToolTip": "Service\\EmployeeService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAswAkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T05:57:18.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Entity\\Employee.cs",
+              "RelativeDocumentMoniker": "Entity\\Employee.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Associate Software Engineer Interview Task\\backend\\Entity\\Employee.cs",
+              "RelativeToolTip": "Entity\\Employee.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAcwB0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T11:45:38.757Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

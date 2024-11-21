@@ -1,0 +1,94 @@
+<div class="container mt-5">
+  <h2>Employee List</h2>
+  <app-error-popup
+    *ngIf="showErrorPopup"
+    [message]="errorMessage"
+    (close)="closeErrorPopup()"
+  >
+  </app-error-popup>
+
+  <div class="d-flex mb-3">
+    <input
+      type="text"
+      class="form-control w-25"
+      placeholder="Search by Position"
+      [(ngModel)]="positionFilter"
+    />
+    <button class="btn btn-primary ms-2" (click)="searchByPosition()">
+      Search
+    </button>
+    <button class="btn btn-outline-primary ms-2" (click)="resetSearch()">
+      Reset
+    </button>
+  </div>
+
+  <div *ngIf="isLoading">
+    <div class="d-flex justify-content-center mt-5">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+    <p class="text-center">Loading employee data...</p>
+  </div>
+  <table class="table table-bordered" *ngIf="!isLoading">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Position</th>
+        <th>Salary</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of employees">
+        <td>{{ employee.id }}</td>
+        <td>{{ employee.firstName }}</td>
+        <td>{{ employee.lastName }}</td>
+        <td>{{ employee.email }}</td>
+        <td>{{ employee.position }}</td>
+        <td>{{ employee.salary }}</td>
+        <td>
+          <button
+            class="btn btn-primary me-2"
+            (click)="editEmployee(employee.id)"
+          >
+            Edit
+          </button>
+          <button class="btn btn-danger" (click)="deleteEmployee(employee.id)">
+            Delete
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="d-flex justify-content-center align-items-center mt-4">
+    <p class="me-3 my-0">
+      {{ employees.length }} of {{ totalEmployees }} employees
+    </p>
+    <input
+      type="number"
+      class="form-control w-auto me-2 align-middle"
+      [(ngModel)]="pageSize"
+      min="5"
+      [max]="totalEmployees"
+    />
+    <button
+      class="btn btn-primary align-middle"
+      (click)="loadMoreEmployees()"
+      *ngIf="!isSearch"
+    >
+      More
+    </button>
+    <button
+      class="btn btn-primary align-middle"
+      (click)="searchByPosition()"
+      *ngIf="isSearch"
+    >
+      More
+    </button>
+  </div>
+</div>

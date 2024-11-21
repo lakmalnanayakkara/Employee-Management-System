@@ -1,0 +1,25 @@
+<div class="container">
+  <header
+    class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
+  >
+    <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+      <li>
+        <a routerLink="" class="nav-link px-2 fs-4"
+          >Employee Management System</a
+        >
+      </li>
+    </ul>
+
+    <div class="col-md-3 text-end">
+      <button type="button" class="btn btn-outline-primary me-2" routerLink="/">
+        Home
+      </button>
+      <button type="button" class="btn btn-primary" routerLink="/add-employee">
+        Add-Employee
+      </button>
+    </div>
+  </header>
+</div>
+<div class="container">
+  <router-outlet> </router-outlet>
+</div>
